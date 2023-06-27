@@ -1,0 +1,8 @@
+pnpm init
+pnpm add nodemon typescript express
+pnpm i -D @types/express @types/node
+tsconfig.json file pnpm tsc --init
+src folder:index.ts //typescript ma src vitra kam garinxa
+package.json : start: "nodemon --exec ts-node src/index.ts", "build":"tsc"
+pnpm run build// makes dist folder
+pnpm add ts-node

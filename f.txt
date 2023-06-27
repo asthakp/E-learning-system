@@ -1,0 +1,5 @@
+installed pnpm package globally: npm i -g pnpm
+intalled vite, selecting react and typescript +swc
+pnpm i
+pnpm run dev
+material ui, redux toolkit install
