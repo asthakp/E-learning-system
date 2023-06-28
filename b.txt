@@ -6,3 +6,10 @@ src folder:index.ts //typescript ma src vitra kam garinxa
 package.json : start: "nodemon --exec ts-node src/index.ts", "build":"tsc"
 pnpm run build// makes dist folder
 pnpm add ts-node
+passpord js : pnpm i passport ; pnpm install passport-google-oauth20
+
+
+sign in with google:
+1. google cloud console website ma gayera client id and client sth lyaune
+2. react oauth for frontend follow documentation
+3. passport js for backend follow documentation

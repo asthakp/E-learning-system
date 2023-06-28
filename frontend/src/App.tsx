@@ -1,9 +1,12 @@
-import Button from "@mui/material/Button";
+import SignIn from "./../pages/signIn";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Button variant="contained">Hello World</Button>
+      <Routes>
+        <Route path="/" element={<SignIn />} />
+      </Routes>
     </>
   );
 }

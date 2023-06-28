@@ -3,3 +3,6 @@ intalled vite, selecting react and typescript +swc
 pnpm i
 pnpm run dev
 material ui, redux toolkit install
+
+google cloud console
+react oauth google
